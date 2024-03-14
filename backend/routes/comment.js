@@ -1,7 +1,6 @@
 import express from "express";
 import { verifyToken } from "../middlewares/verifyToken.js";
 import Comment from "../models/comment.js";
-
 const router = express.Router();
 
 // create
